@@ -1,0 +1,32 @@
+C:\Users\Admin\source\repos\CodeLab\CodeLab\bin\Debug\CodeLab.exe.config
+C:\Users\Admin\source\repos\CodeLab\CodeLab\bin\Debug\CodeLab.exe
+C:\Users\Admin\source\repos\CodeLab\CodeLab\bin\Debug\CodeLab.pdb
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.frmRegister.resources
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.frmLogin.resources
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.Properties.Resources.resources
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.exe
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.pdb
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.dashboard.resources
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.home.resources
+C:\Users\Admin\source\repos\CodeLab\CodeLab\obj\Debug\CodeLab.frmSettings.resources
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.csprojAssemblyReference.cache
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.dashboard.resources
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.frmRegister.resources
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.frmLogin.resources
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.frmSettings.resources
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.home.resources
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.Properties.Resources.resources
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.csproj.GenerateResource.cache
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.csproj.CoreCompileInputs.cache
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.exe
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.pdb
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\bin\Debug\CodeLab.exe.config
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\bin\Debug\CodeLab.exe
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\bin\Debug\CodeLab.pdb
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.MDIParent1.resources
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.csproj.CopyComplete
