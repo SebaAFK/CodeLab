@@ -14,8 +14,6 @@ namespace CodeLab
 {
     public partial class MDIParent1 : DevComponents.DotNetBar.RibbonForm
     {
-        private int childFormNumber = 0;
-
         public MDIParent1()
         {
             InitializeComponent();
@@ -23,23 +21,21 @@ namespace CodeLab
 
         private void ShowNewForm(object sender, EventArgs e, bool isDialog, ref bool isValid)
         {
-            //Form childForm = new Form();
-            ((Form)sender).MdiParent = this;
-            //childForm.Text = "Window " + childFormNumber++;
+            ((RibbonForm)sender).MdiParent = this;
             if (isDialog)
             {
-                ((Form)sender).ShowDialog();
+                ((RibbonForm)sender).ShowDialog();
             } else
             {
-                ((Form)sender).Show();
+                ((RibbonForm)sender).Show();
             }
             
         }
 
         private void MDIParent1_Load(object sender, EventArgs e)
         {
-            bool isValidLogin = false;
-            ShowNewForm(new frmLogin(), e, false, ref isValidLogin);
+            //bool isValidLogin = false;
+            //ShowNewForm(new frmLogin(), e, false, ref isValidLogin);
         }
         private void AppCommandTheme_Executed(object sender, EventArgs e)
         {
@@ -136,5 +132,22 @@ namespace CodeLab
             RibbonStateCommand.Checked = !RibbonStateCommand.Checked;
         }
 
+        private void btn_Language_Click(object sender, EventArgs e)
+        {
+            bool ref_Not = false;
+            ShowNewForm(new LangForm(), e, false, ref ref_Not);
+        }
+
+        private void btn_Levels_Click(object sender, EventArgs e)
+        {
+            bool ref_Not = false;
+            ShowNewForm(new LevelForm(), e, false, ref ref_Not);
+        }
+
+        private void btn_Lessons_Click(object sender, EventArgs e)
+        {
+            bool ref_Not = false;
+            ShowNewForm(new LessonForm(), e, false, ref ref_Not);
+        }
     }
 }

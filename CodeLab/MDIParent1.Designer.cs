@@ -299,9 +299,9 @@
             this.ribbonPanel3 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
             this.buttonItem201 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem206 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem207 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem158 = new DevComponents.DotNetBar.ButtonItem();
+            this.btn_Language = new DevComponents.DotNetBar.ButtonItem();
+            this.btn_Levels = new DevComponents.DotNetBar.ButtonItem();
+            this.btn_Lessons = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonTabItem4 = new DevComponents.DotNetBar.RibbonTabItem();
             this.buttonChangeStyle = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem224 = new DevComponents.DotNetBar.ButtonItem();
@@ -2554,7 +2554,6 @@
             this.switchButtonItem1});
             this.ribbonControl1.KeyTipsFont = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ribbonControl1.Location = new System.Drawing.Point(5, 1);
-            this.ribbonControl1.MdiSystemItemVisible = false;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 3);
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -2623,9 +2622,9 @@
             this.ribbonBar5.DragDropSupport = true;
             this.ribbonBar5.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.buttonItem201,
-            this.buttonItem206,
-            this.buttonItem207,
-            this.buttonItem158});
+            this.btn_Language,
+            this.btn_Levels,
+            this.btn_Lessons});
             this.ribbonBar5.Location = new System.Drawing.Point(3, 0);
             this.ribbonBar5.Name = "ribbonBar5";
             this.ribbonBar5.Size = new System.Drawing.Size(319, 86);
@@ -2648,28 +2647,31 @@
             this.buttonItem201.Name = "buttonItem201";
             this.buttonItem201.Text = "Users";
             // 
-            // buttonItem206
+            // btn_Language
             // 
-            this.buttonItem206.Image = global::CodeLab.Properties.Resources.Untitled_1;
-            this.buttonItem206.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItem206.Name = "buttonItem206";
-            this.buttonItem206.Text = "Courses";
+            this.btn_Language.Image = global::CodeLab.Properties.Resources.Untitled_1;
+            this.btn_Language.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btn_Language.Name = "btn_Language";
+            this.btn_Language.Text = "Language";
+            this.btn_Language.Click += new System.EventHandler(this.btn_Language_Click);
             // 
-            // buttonItem207
+            // btn_Levels
             // 
-            this.buttonItem207.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.buttonItem207.Image = global::CodeLab.Properties.Resources.home;
-            this.buttonItem207.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItem207.Name = "buttonItem207";
-            this.buttonItem207.Text = "Lessenos";
+            this.btn_Levels.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btn_Levels.Image = global::CodeLab.Properties.Resources.home;
+            this.btn_Levels.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btn_Levels.Name = "btn_Levels";
+            this.btn_Levels.Text = "  Levels  ";
+            this.btn_Levels.Click += new System.EventHandler(this.btn_Levels_Click);
             // 
-            // buttonItem158
+            // btn_Lessons
             // 
-            this.buttonItem158.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.buttonItem158.Image = global::CodeLab.Properties.Resources.diagram;
-            this.buttonItem158.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItem158.Name = "buttonItem158";
-            this.buttonItem158.Text = "Questions";
+            this.btn_Lessons.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btn_Lessons.Image = global::CodeLab.Properties.Resources.diagram;
+            this.btn_Lessons.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btn_Lessons.Name = "btn_Lessons";
+            this.btn_Lessons.Text = "Lessons";
+            this.btn_Lessons.Click += new System.EventHandler(this.btn_Lessons_Click);
             // 
             // ribbonTabItem4
             // 
@@ -3036,7 +3038,7 @@
             this.itemContainer16,
             this.itemContainer17});
             this.bar1.ItemSpacing = 2;
-            this.bar1.Location = new System.Drawing.Point(5, 529);
+            this.bar1.Location = new System.Drawing.Point(5, 523);
             this.bar1.Name = "bar1";
             this.bar1.PaddingBottom = 0;
             this.bar1.PaddingTop = 0;
@@ -3138,7 +3140,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::CodeLab.Properties.Resources.finalLogo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1159, 556);
+            this.ClientSize = new System.Drawing.Size(1159, 550);
             this.Controls.Add(this.bar1);
             this.Controls.Add(this.ribbonControl1);
             this.IsMdiContainer = true;
@@ -3424,8 +3426,8 @@
         private DevComponents.DotNetBar.RibbonPanel ribbonPanel3;
         private DevComponents.DotNetBar.RibbonBar ribbonBar5;
         private DevComponents.DotNetBar.ButtonItem buttonItem201;
-        private DevComponents.DotNetBar.ButtonItem buttonItem206;
-        private DevComponents.DotNetBar.ButtonItem buttonItem207;
+        private DevComponents.DotNetBar.ButtonItem btn_Language;
+        private DevComponents.DotNetBar.ButtonItem btn_Levels;
         private DevComponents.DotNetBar.Office2007StartButton office2007StartButton1;
         private DevComponents.DotNetBar.ItemContainer itemContainer26;
         private DevComponents.DotNetBar.ItemContainer itemContainer27;
@@ -3472,7 +3474,7 @@
         private DevComponents.DotNetBar.ButtonItem buttonItem157;
         private DevComponents.DotNetBar.ItemContainer itemContainer17;
         internal DevComponents.DotNetBar.LabelItem labelPosition;
-        private DevComponents.DotNetBar.ButtonItem buttonItem158;
+        private DevComponents.DotNetBar.ButtonItem btn_Lessons;
         private DevComponents.DotNetBar.Command RibbonStateCommand;
     }
 }

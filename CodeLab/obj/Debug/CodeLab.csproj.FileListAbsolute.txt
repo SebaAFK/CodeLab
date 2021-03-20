@@ -30,3 +30,8 @@ C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.MDIPa
 C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\bin\Debug\DevComponents.DotNetBar2.dll
 C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\bin\Debug\DevComponents.DotNetBar2.xml
 C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.csproj.CopyComplete
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\bin\Debug\DevComponents.Charts.Design.dll
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\bin\Debug\DevComponents.DotNetBar.Charts.dll
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.LangForm.resources
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.LevelForm.resources
+C:\Users\LordAyoub\Downloads\CodeLab (2)\CodeLab\CodeLab\obj\Debug\CodeLab.LessonForm.resources
